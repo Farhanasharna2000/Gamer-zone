@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font {
+    font-family: "Work Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Common styles */
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.color-1 {
+    color: rgb(255, 66, 165);
+}
+
+.lg {
+    background: linear-gradient(rgb(249, 72, 178),
+            rgb(135, 88, 241));
+    background-clip: text;
+    color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* nav styles */
+nav {
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 0;
+
+}
+
+.nav-left,
+.nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-icon {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    padding: 18px 24px;
+}
+
+.nav-left h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.nav-right a {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* banner styles */
+.banner-main {
+    background-image: url(../images/Group\ 14.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.banner {
+    width: 50%;
+    position: relative;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner h3 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.banner h2 {
+    font-size: 95px;
+    font-weight: 800;
+    padding: 4px 0 24px 0;
+    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.131);
+}
+
+.banner p {
+    color: rgb(83, 76, 100);
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 17px;
+}
+
+.people {
+    padding-bottom: 40px;
+
+}
+
+.banner p i {
+    margin-right: 10px;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    padding: 21px 40px;
+    background-color: rgb(255, 66, 165);
+    border-radius: 48px
+}
+
+.btn {
+    background-color: rgb(78, 197, 247);
+    margin-left: 24px;
+}
+
+/* gamer styles */
+.gamer-main {
+    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%, rgba(255, 66, 165, 0.03) 87.942%);
+    margin-bottom: 120px;
+}
+
+.gamer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gamer-img,
+.gamer {
+    width: 50%;
+}
+
+.gamer {
+    text-align: end;
+}
+
+.gamer-img img {
+    width: 100%;
+}
+
+.gamer h2 {
+    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
+    background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 95px;
+}
+
+.gamer p {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    color: rgb(83, 76, 100);
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 30px;
+}
+
+.purpose {
+    margin-top: 40px;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.btn-2 {
+    margin-top: 40px;
+}
+
+.gamer h4 {
+    padding-bottom: 96px;
+    color: rgb(83, 76, 100);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* funny styles */
+.funny-main{
+    margin-bottom: 120px;
+ }
+.funny-main h2,
+p {
+    text-align: center;
+}
+
+.funny-main h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny-main p {
+    padding: 16px 0 48px 0;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.funny-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.funny-card h3 {
+    color: rgb(83, 76, 100);
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.funny-card img {
+    border-radius: 16px;
+    width: 100%;
+}
+
+.watch-now h4 {
+    background: linear-gradient(90.00deg, rgb(255, 66, 165), rgb(255, 66, 165));
+    color: transparent;
+    background-clip: text;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.watch-now span {
+    color: white;
+    font-size: 1.75rem;
+}
+
+.card-icon {
+    position: relative;
+
+}
+.card-icon img:hover{
+    filter: brightness(50%);
+}
+
+.card-icon img:hover+.watch-now{
+    display: block;
+}
+.watch-now {
+    position: absolute;
+    top: 29%;
+    left: 29%;
+    text-align: center;
+    display: none;
+}
