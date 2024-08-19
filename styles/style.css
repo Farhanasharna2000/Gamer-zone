@@ -20,8 +20,7 @@
 }
 
 .lg {
-    background: linear-gradient(rgb(249, 72, 178),
-            rgb(135, 88, 241));
+    background: linear-gradient(rgb(249, 72, 178),  rgb(135, 88, 241));
     background-clip: text;
     color: transparent;
 }
@@ -213,8 +212,7 @@ nav {
 .funny-main{
     margin-bottom: 120px;
  }
-.funny-main h2,
-p {
+.funny-main h2,.funny-main p {
     text-align: center;
 }
 
@@ -277,4 +275,51 @@ p {
     left: 29%;
     text-align: center;
     display: none;
+}
+/* play &online styles */
+.play-main,.online-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 152px;
+}
+.play,.play-img,.online,.online-img{
+    width: 40%;
+}
+.play h2,.play p{
+    text-align: end;
+
+}
+.play h2,.online h2{
+    font-size: 3rem;
+font-weight: 700;
+line-height: 60px;
+padding-bottom: 24px;
+}
+.play p,.online p {
+    color: rgb(83, 76, 100);
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+.play p{
+    padding-left: 55px;
+}
+.play-img img,.online-img img{
+    width: 100%;
+}
+.play-img,.online-img{
+    position: relative;
+}
+.play-img-2 {
+    position: absolute;
+    top: 54%;
+    left: -27%;
+    width: 55%;
+}
+.online-img-2 {
+    position: absolute;
+    top: 54%;
+    left: 84%;
+    width: 55%;
 }

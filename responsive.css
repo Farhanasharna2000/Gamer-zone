@@ -90,7 +90,9 @@
         font-size: 1rem;
         font-weight: 700;
     }
-    
+    .funny-main{
+        margin-bottom: 40px;
+    }
     .funny-card-container{
         grid-template-columns: repeat(1,1fr);
         gap: 8px;
@@ -104,5 +106,28 @@
     }
     .funny-main h3{
         font-size: .7rem;
+        text-align: center;
+    }
+    .play-main{
+       flex-direction: column;
+        margin-bottom: 96px;
+    }
+    .online-main{
+        flex-direction: column-reverse;
+    }
+    .play,.play-img,.online,.online-img{
+        width: 60%;
+    }
+    .play h2, .online h2 {
+        font-size: 1.5rem;
+        line-height: 35px;
+        text-align: center;
+    }
+    .play p,.online p {
+        text-align: center;
+        font-size: .7rem;
+        line-height: 24px;
+        padding-bottom: 40px;
+        padding-left: 0;
     }
 }
