@@ -161,4 +161,27 @@
         font-size: .8rem;
         font-weight: 400;
         }
+        .footer-list-1{
+  
+            grid-template-columns: repeat(3,1fr);
+       
+        }
+        .footer-list-2{
+            grid-template-columns: repeat(2,1fr);
+
+        }
+        .footer-icon{
+            grid-template-columns: repeat(3,1fr);
+
+        }
+        footer p{
+            font-size: .7rem;
+            max-width: 38%;
+            margin: 0 auto;
+            margin-top: 30px;
+
+        }
+        .footer-list-1 a, .footer-icon i{
+            margin-top: 30px;
+        }
 }
