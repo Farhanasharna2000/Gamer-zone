@@ -93,7 +93,8 @@
     .funny-main{
         margin-bottom: 40px;
     }
-    .funny-card-container{
+    .funny-card-container,
+    .career-container{
         grid-template-columns: repeat(1,1fr);
         gap: 8px;
     }
@@ -130,4 +131,34 @@
         padding-bottom: 40px;
         padding-left: 0;
     }
+    .career-img{
+        margin-top: 80px;
+        margin-bottom: 90px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .career{
+        margin-left: 10%;
+        margin-right: 10%;
+
+    margin-bottom: 0;
+       
+    }
+    
+    .category-container{
+       gap: 5px;
+
+    }
+
+    .category{
+        margin-top: 50px;
+    }
+    .category img{
+        width: 30px;
+    }
+    .category p{
+        font-size: .8rem;
+        font-weight: 400;
+        }
 }
